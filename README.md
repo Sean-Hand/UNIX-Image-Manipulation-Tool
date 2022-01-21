@@ -13,7 +13,7 @@ Pull the project from this repository.
 ### Step 2:
 Navigate into the project folder
 
-    $ cd ../SeniorProjectCSquad/Project
+    $ cd ../Source/Project
 ### Step 3:
 To install the dependencies run these commands 
 
@@ -94,12 +94,12 @@ To run the program, use the commands
 
 ### Grayscale
 
-    grayscale <buff-name> <destination-buff>
+    grayscale <buff-name> into <destination-buff>
 * Converts image to a single-channel grayscale image by taking the highest value of each color in each pixel.
 
 ### Hadamard Transform
 
-    wht <buff-name> <destination-buff>
+    wht <buff-name> into <destination-buff>
 * 2-D Hadamard transform. Image will be expanded to a square with side length of the nearest power of 2, with black pixels filling the gap.
 * Resulting buffer contains the original image, the raw transformed data, and a visualization of the transformed data.
 
